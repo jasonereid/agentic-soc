@@ -6,7 +6,7 @@ Excellent! Let's architect our simple Agentic AI threat hunter using these broad
 
 At its core, our agent will operate in a continuous loop, perceiving its environment (data), reasoning about it, acting (querying/analyzing), and learning from the outcomes.
 
-```mermaid
+
 graph TD
     A[Threat Intelligence Feeds / Human Input] --> B(Hypothesis Generation Module)
     D[Raw Security Data Sources] --> E(Data Collection Module)
@@ -21,7 +21,6 @@ graph TD
     J --> L
     L --> B
     L --> G
-```
 
 ### Core Modules and Their Functions:
 
